@@ -176,8 +176,7 @@ export default class GraphController {
                 console.log(err);
                 clientCallback('Error');
               }
-            });
-            
+            });          
   }
 
   private async uploadMailSlices(mimeStream: string, uploadUrl: string) {
