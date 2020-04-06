@@ -27,6 +27,13 @@ Solution|Author(s)
 --------|---------
 outlook-2-sp-spfx| Markus Moeller ([@moeller2_0](http://www.twitter.com/moeller2_0))
 
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0|January 29, 2020|Initial release
+1.1|April 06, 2020|Open extensions to store metadata added
+
 ## Disclaimer
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
@@ -61,4 +68,5 @@ This Outlook Add-In shows the following capabilities on top of the SharePoint Fr
 * Use Microsoft Graph to retrieve joined Groups and Teams
 * Use Microsoft Graph to retrieve folders and subfolders for OneDrive or Teams/Group drives
 * Use Microsoft Graph to retrieve complete mail mimestream by given ID
-* Use Microsoft Graph to save normal or big files (in size bigger 4MB) with different concepts 
+* Use Microsoft Graph to save normal or big files (in size bigger 4MB) with different concepts
+* Optionally store metadata of save operation to copied mail with open extension (configure line 15 Outlook2SharePoint.tsx)
